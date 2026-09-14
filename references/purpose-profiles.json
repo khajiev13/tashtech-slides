@@ -1,0 +1,402 @@
+{
+  "schema_version": 1,
+  "default_purpose": "general",
+  "profiles": {
+    "general": {
+      "mode": "institutional",
+      "text": {
+        "en": {
+          "label": "University presentation",
+          "tagline": "Context. Evidence. Next step.",
+          "framing_title": "Start with the purpose",
+          "framing_prompt": "What should this presentation help the audience do?",
+          "steps": [
+            "Describe the situation and intended outcome.",
+            "Support the main points with verified material.",
+            "End with a clear conclusion or next step."
+          ],
+          "closing_title": "A useful next step",
+          "closing_prompt": "Replace this starter with sourced content and a clear action for your audience."
+        },
+        "uz": {
+          "label": "Universitet taqdimoti",
+          "tagline": "Kontekst. Dalil. Keyingi qadam.",
+          "framing_title": "Maqsadni aniqlang",
+          "framing_prompt": "Taqdimot tinglovchilarga qanday yordam berishi kerak?",
+          "steps": [
+            "Vaziyat va kutilgan natijani bayon qiling.",
+            "Asosiy fikrlarni tekshirilgan ma’lumot bilan asoslang.",
+            "Aniq xulosa yoki keyingi qadam bilan yakunlang."
+          ],
+          "closing_title": "Keyingi qadam",
+          "closing_prompt": "Ushbu namunani manbali mazmun va tinglovchilar uchun aniq harakat bilan almashtiring."
+        },
+        "ru": {
+          "label": "Университетская презентация",
+          "tagline": "Контекст. Доказательства. Следующий шаг.",
+          "framing_title": "Начните с цели",
+          "framing_prompt": "Какое действие или решение поддерживает презентация?",
+          "steps": [
+            "Опишите ситуацию и ожидаемый результат.",
+            "Подкрепите тезисы проверенными материалами.",
+            "Завершите выводом или следующим шагом."
+          ],
+          "closing_title": "Следующий шаг",
+          "closing_prompt": "Замените этот образец проверенными материалами и понятным действием для аудитории."
+        }
+      }
+    },
+    "teaching": {
+      "mode": "lecture",
+      "text": {
+        "en": {
+          "label": "Learning session",
+          "tagline": "Explain. Apply. Check.",
+          "framing_title": "Define the learning goal",
+          "framing_prompt": "What should learners be able to explain or do?",
+          "steps": [
+            "State a specific learning objective.",
+            "Explain the idea through a worked example.",
+            "Check understanding with a short activity."
+          ],
+          "closing_title": "Check the takeaway",
+          "closing_prompt": "Replace this starter with course sources, an explanation, practice and a recap."
+        },
+        "uz": {
+          "label": "O‘quv mashg‘uloti",
+          "tagline": "Tushuntirish. Amaliyot. Tekshirish.",
+          "framing_title": "O‘quv maqsadini belgilang",
+          "framing_prompt": "Tinglovchilar nimani tushuntira olishi yoki bajara olishi kerak?",
+          "steps": [
+            "Aniq o‘quv maqsadini belgilang.",
+            "G‘oyani yechilgan misol orqali tushuntiring.",
+            "Qisqa topshiriq bilan tushunishni tekshiring."
+          ],
+          "closing_title": "Asosiy xulosani tekshiring",
+          "closing_prompt": "Ushbu namunani kurs manbalari, tushuntirish, mashq va yakuniy xulosa bilan almashtiring."
+        },
+        "ru": {
+          "label": "Учебное занятие",
+          "tagline": "Объяснение. Практика. Проверка.",
+          "framing_title": "Определите учебную цель",
+          "framing_prompt": "Что слушатели смогут объяснить или выполнить?",
+          "steps": [
+            "Сформулируйте конкретную учебную цель.",
+            "Разберите идею на решённом примере.",
+            "Проверьте понимание коротким заданием."
+          ],
+          "closing_title": "Проверьте главный вывод",
+          "closing_prompt": "Замените образец материалами курса, объяснением, практикой и итогами."
+        }
+      }
+    },
+    "research": {
+      "mode": "research",
+      "text": {
+        "en": {
+          "label": "Research presentation",
+          "tagline": "Question. Method. Evidence.",
+          "framing_title": "Frame the research question",
+          "framing_prompt": "Which claim can your actual evidence support?",
+          "steps": [
+            "State the question and its scope.",
+            "Explain the method and show the real results.",
+            "Separate findings, limitations and next tests."
+          ],
+          "closing_title": "A bounded conclusion",
+          "closing_prompt": "Replace this starter with the actual study, cited results and limitations. Label synthetic examples."
+        },
+        "uz": {
+          "label": "Ilmiy taqdimot",
+          "tagline": "Savol. Usul. Dalil.",
+          "framing_title": "Tadqiqot savolini belgilang",
+          "framing_prompt": "Haqiqiy dalillaringiz qaysi xulosani asoslaydi?",
+          "steps": [
+            "Savol va tadqiqot doirasini belgilang.",
+            "Usul va haqiqiy natijalarni ko‘rsating.",
+            "Natija, cheklov va keyingi sinovlarni ajrating."
+          ],
+          "closing_title": "Asoslangan xulosa",
+          "closing_prompt": "Namunani haqiqiy tadqiqot, manbali natijalar va cheklovlar bilan almashtiring. Sun’iy misollarni belgilang."
+        },
+        "ru": {
+          "label": "Научная презентация",
+          "tagline": "Вопрос. Метод. Доказательства.",
+          "framing_title": "Сформулируйте научный вопрос",
+          "framing_prompt": "Какой вывод подтверждают ваши реальные данные?",
+          "steps": [
+            "Обозначьте вопрос и границы исследования.",
+            "Объясните метод и покажите реальные результаты.",
+            "Разделите выводы, ограничения и будущие проверки."
+          ],
+          "closing_title": "Обоснованный вывод",
+          "closing_prompt": "Замените образец реальным исследованием, результатами и ограничениями. Помечайте условные примеры."
+        }
+      }
+    },
+    "leadership": {
+      "mode": "institutional",
+      "text": {
+        "en": {
+          "label": "Decision briefing",
+          "tagline": "Evidence. Options. Decision.",
+          "framing_title": "Make the decision explicit",
+          "framing_prompt": "What decision is needed, and what supports it?",
+          "steps": [
+            "Summarize the issue and verified evidence.",
+            "Compare options, trade-offs and uncertainties.",
+            "Specify the decision and proposed next steps."
+          ],
+          "closing_title": "A clear decision request",
+          "closing_prompt": "Replace this starter with a dated brief, sourced indicators and an explicit request. Do not invent approvals."
+        },
+        "uz": {
+          "label": "Qaror uchun taqdimot",
+          "tagline": "Dalil. Variantlar. Qaror.",
+          "framing_title": "Kerakli qarorni aniqlang",
+          "framing_prompt": "Qanday qaror kerak va uni nima asoslaydi?",
+          "steps": [
+            "Masala va tekshirilgan dalillarni jamlang.",
+            "Variantlar, murosalar va noaniqliklarni solishtiring.",
+            "Qaror va taklif etilgan keyingi qadamlarni belgilang."
+          ],
+          "closing_title": "Aniq qaror so‘rovi",
+          "closing_prompt": "Namunani sanali ma’lumot, manbali ko‘rsatkich va aniq so‘rov bilan almashtiring. Tasdiqlarni uydirmang."
+        },
+        "ru": {
+          "label": "Доклад для принятия решения",
+          "tagline": "Данные. Варианты. Решение.",
+          "framing_title": "Уточните необходимое решение",
+          "framing_prompt": "Какое решение требуется и чем оно обосновано?",
+          "steps": [
+            "Кратко изложите вопрос и проверенные данные.",
+            "Сравните варианты, риски и неопределённость.",
+            "Укажите решение и предлагаемые действия."
+          ],
+          "closing_title": "Чёткий запрос на решение",
+          "closing_prompt": "Замените образец актуальной сводкой, проверенными показателями и запросом. Не выдумывайте согласования."
+        }
+      }
+    },
+    "partnership": {
+      "mode": "institutional",
+      "text": {
+        "en": {
+          "label": "Partnership discussion",
+          "tagline": "Shared need. Scope. Next steps.",
+          "framing_title": "Find the shared purpose",
+          "framing_prompt": "Where could both institutions benefit?",
+          "steps": [
+            "Describe a shared need using verified facts.",
+            "Propose a small, clearly scoped activity.",
+            "Separate discussion points from commitments."
+          ],
+          "closing_title": "Agree the next conversation",
+          "closing_prompt": "Replace this starter with verified context and discussion proposals. Do not imply an agreement has been signed."
+        },
+        "uz": {
+          "label": "Hamkorlik muhokamasi",
+          "tagline": "Umumiy ehtiyoj. Ko‘lam. Keyingi qadam.",
+          "framing_title": "Umumiy maqsadni toping",
+          "framing_prompt": "Ikki muassasa qayerda o‘zaro manfaat topishi mumkin?",
+          "steps": [
+            "Umumiy ehtiyojni tekshirilgan faktlar bilan bayon qiling.",
+            "Ko‘lami aniq kichik faoliyatni taklif qiling.",
+            "Muhokama takliflarini majburiyatlardan ajrating."
+          ],
+          "closing_title": "Keyingi muloqotni belgilang",
+          "closing_prompt": "Namunani tekshirilgan kontekst va muhokama takliflari bilan almashtiring. Bitim imzolangan deb ko‘rsatmang."
+        },
+        "ru": {
+          "label": "Обсуждение партнёрства",
+          "tagline": "Общая задача. Масштаб. Следующие шаги.",
+          "framing_title": "Найдите общую цель",
+          "framing_prompt": "В чём может состоять взаимная польза?",
+          "steps": [
+            "Опишите общую задачу на основе проверенных фактов.",
+            "Предложите небольшую инициативу с ясными границами.",
+            "Отделите предмет обсуждения от обязательств."
+          ],
+          "closing_title": "Согласуйте следующий разговор",
+          "closing_prompt": "Замените образец проверенным контекстом и предложениями. Не создавайте впечатление подписанного соглашения."
+        }
+      }
+    },
+    "admissions": {
+      "mode": "institutional",
+      "text": {
+        "en": {
+          "label": "Applicant information",
+          "tagline": "Explore. Verify. Take the next step.",
+          "framing_title": "Answer the applicant’s question",
+          "framing_prompt": "What does this audience need to make an informed choice?",
+          "steps": [
+            "Explain the options using approved program information.",
+            "Verify eligibility, dates, fees and any conditions.",
+            "Give a checked source for the next step."
+          ],
+          "closing_title": "A reliable route forward",
+          "closing_prompt": "Replace this starter with current approved admissions material. Do not invent programs, deadlines or guarantees."
+        },
+        "uz": {
+          "label": "Abituriyentlar uchun ma’lumot",
+          "tagline": "O‘rganing. Tekshiring. Keyingi qadamni qo‘ying.",
+          "framing_title": "Abituriyent savoliga javob bering",
+          "framing_prompt": "Ongli tanlov uchun tinglovchiga nima kerak?",
+          "steps": [
+            "Variantlarni tasdiqlangan dastur ma’lumoti bilan izohlang.",
+            "Talablar, sanalar, to‘lov va shartlarni tekshiring.",
+            "Keyingi qadam uchun tekshirilgan manbani bering."
+          ],
+          "closing_title": "Ishonchli keyingi qadam",
+          "closing_prompt": "Namunani amaldagi tasdiqlangan qabul ma’lumoti bilan almashtiring. Dastur, muddat yoki kafolatlarni uydirmang."
+        },
+        "ru": {
+          "label": "Информация для абитуриентов",
+          "tagline": "Изучите. Проверьте. Сделайте следующий шаг.",
+          "framing_title": "Ответьте на вопрос абитуриента",
+          "framing_prompt": "Какая информация нужна для осознанного выбора?",
+          "steps": [
+            "Опишите варианты по утверждённым данным о программах.",
+            "Проверьте требования, сроки, стоимость и условия.",
+            "Укажите проверенный источник для следующего шага."
+          ],
+          "closing_title": "Надёжный следующий шаг",
+          "closing_prompt": "Используйте актуальные утверждённые материалы. Не выдумывайте программы, сроки или гарантии."
+        }
+      }
+    },
+    "training": {
+      "mode": "lecture",
+      "text": {
+        "en": {
+          "label": "Staff training",
+          "tagline": "Task. Demonstration. Practice.",
+          "framing_title": "Start with the practical task",
+          "framing_prompt": "What should staff be able to do after this session?",
+          "steps": [
+            "Name the task and its prerequisites.",
+            "Demonstrate the reviewed procedure step by step.",
+            "Practise the task and explain where to get help."
+          ],
+          "closing_title": "Confirm the safe next step",
+          "closing_prompt": "Replace this starter with the reviewed procedure and safe examples. Remove credentials and personal records."
+        },
+        "uz": {
+          "label": "Xodimlar uchun trening",
+          "tagline": "Vazifa. Namoyish. Mashq.",
+          "framing_title": "Amaliy vazifadan boshlang",
+          "framing_prompt": "Mashg‘ulotdan keyin xodim nima qila olishi kerak?",
+          "steps": [
+            "Vazifa va zarur shartlarni belgilang.",
+            "Tekshirilgan tartibni bosqichma-bosqich ko‘rsating.",
+            "Mashq qiling va yordam manbasini tushuntiring."
+          ],
+          "closing_title": "Xavfsiz keyingi qadam",
+          "closing_prompt": "Namunani tekshirilgan tartib va xavfsiz misollar bilan almashtiring. Parol va shaxsiy yozuvlarni olib tashlang."
+        },
+        "ru": {
+          "label": "Обучение сотрудников",
+          "tagline": "Задача. Демонстрация. Практика.",
+          "framing_title": "Начните с практической задачи",
+          "framing_prompt": "Что сотрудник сможет сделать после занятия?",
+          "steps": [
+            "Назовите задачу и необходимые условия.",
+            "Покажите проверенную процедуру по шагам.",
+            "Дайте практику и укажите, где получить помощь."
+          ],
+          "closing_title": "Безопасный следующий шаг",
+          "closing_prompt": "Используйте проверенную процедуру и безопасные примеры. Удалите пароли и персональные записи."
+        }
+      }
+    },
+    "student-project": {
+      "mode": "research",
+      "text": {
+        "en": {
+          "label": "Student project",
+          "tagline": "Problem. Approach. Evidence.",
+          "framing_title": "Show what you investigated",
+          "framing_prompt": "What did your team build, test or learn?",
+          "steps": [
+            "Define the problem and your own contribution.",
+            "Show the approach, prototype or real evidence.",
+            "Explain limitations and the next improvement."
+          ],
+          "closing_title": "A clear project conclusion",
+          "closing_prompt": "Replace this starter with your work and citations. Label it as student work, not an institutional position."
+        },
+        "uz": {
+          "label": "Talaba loyihasi",
+          "tagline": "Muammo. Yondashuv. Dalil.",
+          "framing_title": "Nimani o‘rganganingizni ko‘rsating",
+          "framing_prompt": "Jamoangiz nimani yaratdi, sinadi yoki o‘rgandi?",
+          "steps": [
+            "Muammo va o‘z hissangizni belgilang.",
+            "Yondashuv, prototip yoki haqiqiy dalilni ko‘rsating.",
+            "Cheklov va keyingi yaxshilashni tushuntiring."
+          ],
+          "closing_title": "Loyiha bo‘yicha aniq xulosa",
+          "closing_prompt": "Namunani o‘z ishingiz va manbalar bilan almashtiring. Uni universitet pozitsiyasi emas, talaba ishi deb belgilang."
+        },
+        "ru": {
+          "label": "Студенческий проект",
+          "tagline": "Проблема. Подход. Доказательства.",
+          "framing_title": "Покажите свою работу",
+          "framing_prompt": "Что ваша команда создала, проверила или узнала?",
+          "steps": [
+            "Определите проблему и собственный вклад.",
+            "Покажите подход, прототип или реальные данные.",
+            "Объясните ограничения и следующее улучшение."
+          ],
+          "closing_title": "Понятный итог проекта",
+          "closing_prompt": "Используйте свою работу и ссылки. Обозначьте студенческий проект, а не официальную позицию университета."
+        }
+      }
+    },
+    "event": {
+      "mode": "institutional",
+      "text": {
+        "en": {
+          "label": "University event",
+          "tagline": "Purpose. Programme. Participation.",
+          "framing_title": "Orient the audience",
+          "framing_prompt": "What should participants know and do?",
+          "steps": [
+            "Explain the event purpose and audience.",
+            "Show only confirmed programme details.",
+            "Give verified participation or follow-up information."
+          ],
+          "closing_title": "A clear invitation or closing",
+          "closing_prompt": "Replace this starter with confirmed event details. Label draft programmes and do not invent speakers or sponsors."
+        },
+        "uz": {
+          "label": "Universitet tadbiri",
+          "tagline": "Maqsad. Dastur. Ishtirok.",
+          "framing_title": "Ishtirokchilarni yo‘naltiring",
+          "framing_prompt": "Ishtirokchilar nimani bilishi va qilishi kerak?",
+          "steps": [
+            "Tadbir maqsadi va auditoriyasini tushuntiring.",
+            "Faqat tasdiqlangan dastur tafsilotlarini ko‘rsating.",
+            "Ishtirok yoki keyingi aloqa ma’lumotini tekshiring."
+          ],
+          "closing_title": "Aniq taklif yoki yakun",
+          "closing_prompt": "Namunani tasdiqlangan tadbir ma’lumoti bilan almashtiring. Loyiha dasturini belgilang; spiker va homiylarni uydirmang."
+        },
+        "ru": {
+          "label": "Университетское мероприятие",
+          "tagline": "Цель. Программа. Участие.",
+          "framing_title": "Сориентируйте участников",
+          "framing_prompt": "Что участникам нужно знать и сделать?",
+          "steps": [
+            "Объясните цель и аудиторию мероприятия.",
+            "Покажите только подтверждённые детали программы.",
+            "Дайте проверенную информацию об участии и связи."
+          ],
+          "closing_title": "Понятное приглашение или итог",
+          "closing_prompt": "Используйте подтверждённые детали. Помечайте проект программы; не выдумывайте спикеров или спонсоров."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="TashTech Slides University Edition {{VERSION}}">
+<title>{{TITLE}}</title>
+<style>
+{{CSS}}
+</style>
+</head>
+<body data-mode="{{MODE}}" data-purpose="{{PURPOSE}}" data-motion="{{MOTION}}" data-autosave="{{AUTOSAVE_KEY}}">
+<div id="viewport" aria-label="Presentation viewport">
+<main id="stage" aria-label="{{TITLE}}">
+{{SLIDES}}
+</main>
+</div>
+<div class="edit-hotzone" aria-hidden="true"></div>
+<nav id="controls" aria-label="Presentation controls">
+<button id="previous" type="button" data-ui="prev" title="Left arrow">Previous</button>
+<span id="counter" aria-live="off">1 / 1</span>
+<button id="next" type="button" data-ui="next" title="Right arrow">Next</button>
+<button id="notes-toggle" type="button" data-ui="notes" aria-pressed="false" title="N">Notes</button>
+<button id="edit-toggle" class="floating-control" type="button" data-ui="edit" aria-pressed="false" title="E">Edit</button>
+<button id="save-html" type="button" data-ui="save" title="Ctrl/Cmd+S">Save HTML</button>
+<button id="fullscreen" type="button" data-ui="full" title="F">Full screen</button>
+</nav>
+<aside id="notes-panel" hidden aria-label="Speaker notes">
+<h2 data-ui="notesTitle">Speaker notes</h2>
+<p class="notes-warning" data-ui="warning">Visible on this screen. Not a private presenter display.</p>
+<div id="notes-body"></div>
+</aside>
+<div id="live-status" role="status" aria-live="polite"></div>
+<noscript>This presentation needs JavaScript for navigation. Print the page to see all slides, or use the PDF version.</noscript>
+<script>
+{{JS}}
+</script>
+</body>
+</html>

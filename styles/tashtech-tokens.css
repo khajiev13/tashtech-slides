@@ -1,0 +1,18 @@
+/* TashTech Slides v2.0 — measured logo color + proposed presentation tokens.
+   This is not an official university CSS or type specification. */
+:root {
+  --tt-orange: #E64519;
+  --tt-orange-text: #B73513;
+  --tt-ink: #202426;
+  --tt-muted: #596167;
+  --tt-paper: #FFFFFF;
+  --tt-surface: #F3F4F4;
+  --tt-warm: #FFF2EB;
+  --tt-line: #D9DEDF;
+  --tt-inverse: #FFFFFF;
+  --tt-stage-bg: #151819;
+  --tt-font: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  --tt-mono: "Courier New", Courier, monospace;
+  --tt-slide-width: 1920px;
+  --tt-slide-height: 1080px;
+}

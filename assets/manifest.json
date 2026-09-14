@@ -1,0 +1,90 @@
+{
+  "version": "1.0.0",
+  "reviewed": "2026-09-14",
+  "brand_status": "Working presentation design, not an official university brand manual",
+  "assets": [
+    {
+      "id": "tt-monogram",
+      "path": "assets/logos/tt-monogram-orange-on-white.png",
+      "width": 422,
+      "height": 276,
+      "aspect_ratio": 1.528986,
+      "has_transparency": false,
+      "background": "white",
+      "sampled_color": "#E64519",
+      "source": "User upload images.png; content cropped with 12 px white padding; RGB pixels retained, no tracing or recoloring.",
+      "usage": "Default content-slide mark; white plaque only.",
+      "sha256": "395ea29350fde0f6aa020044722330032d13daa1a2ee4d178c828433e2c29e1c",
+      "rights": "University marks / supplied artwork: rights retained by respective owners; not covered by software MIT license."
+    },
+    {
+      "id": "tt-wordmark",
+      "path": "assets/logos/tt-wordmark-orange-on-white.png",
+      "width": 1209,
+      "height": 157,
+      "aspect_ratio": 7.700637,
+      "has_transparency": false,
+      "background": "white",
+      "sampled_color": "#E64519 (dominant flat-color sample; JPEG has variation)",
+      "source": "User upload IMAGE 2026-09-14 09:53:21.jpg; white margins trimmed; PNG derivative of JPEG, not a vector master.",
+      "usage": "Cover/closing and formal presentations; white plaque only.",
+      "sha256": "2a62e847f91592e300c1301b50d31b4ef8c31d7b94c5bc841404d9bb942dcff2",
+      "rights": "University marks / supplied artwork: rights retained by respective owners; not covered by software MIT license."
+    },
+    {
+      "id": "tt-circle",
+      "path": "assets/logos/tt-circle-orange-transparent.png",
+      "width": 2048,
+      "height": 2046,
+      "aspect_ratio": 1.000978,
+      "has_transparency": true,
+      "background": "transparent",
+      "sampled_color": "#E54519",
+      "source": "User upload TT circle.png, exact copy.",
+      "usage": "Optional full cover/section mark; preserve transparent background and circular lettering.",
+      "sha256": "33b51481bba9b37a8d61c51913bbb4780b1eb6f6b07dd8077f3023a5cf163256",
+      "rights": "University marks / supplied artwork: rights retained by respective owners; not covered by software MIT license."
+    },
+    {
+      "id": "scholars-artwork",
+      "path": "assets/artwork/scholars-heritage-transparent.png",
+      "width": 1254,
+      "height": 1254,
+      "aspect_ratio": 1.0,
+      "has_transparency": true,
+      "background": "transparent",
+      "sampled_color": "Varied orange/white; not a palette source",
+      "source": "User upload ChatGPT Image Aug 27, 2026, 11_33_03 AM.png, exact copy.",
+      "usage": "Optional heritage illustration only; not an approved official logo or seal. Has rough colored edge artifacts.",
+      "sha256": "f06d909f608b189d9858e09ae68eb825a65e941e52695d471e246b0bfde5dbc9",
+      "rights": "University marks / supplied artwork: rights retained by respective owners; not covered by software MIT license."
+    }
+  ],
+  "originals": [
+    {
+      "original_filename": "images.png",
+      "path": "assets/originals/tt-monogram-source.png",
+      "sha256": "b9c96bca01ef5a4e470de7d704ea214c339e1cfa28a0de82e76c2440dd795145"
+    },
+    {
+      "original_filename": "IMAGE 2026-09-14 09:52:26.jpg",
+      "path": "assets/originals/tt-monogram-alternate-source.jpg",
+      "sha256": "d01d3f43c2a2c09389a5f7567daca9cfc26123ebc5b9676e27109c6fc987d978"
+    },
+    {
+      "original_filename": "IMAGE 2026-09-14 09:53:21.jpg",
+      "path": "assets/originals/tt-wordmark-source.jpg",
+      "sha256": "3ac2f7219a72ff729279d4f5cea4d7bd29f4e137577e998d7dd32cea32ded03f"
+    },
+    {
+      "original_filename": "TT circle.png",
+      "path": "assets/originals/tt-circle-source.png",
+      "sha256": "33b51481bba9b37a8d61c51913bbb4780b1eb6f6b07dd8077f3023a5cf163256"
+    },
+    {
+      "original_filename": "ChatGPT Image Aug 27, 2026, 11_33_03 AM.png",
+      "path": "assets/originals/scholars-artwork-source.png",
+      "sha256": "f06d909f608b189d9858e09ae68eb825a65e941e52695d471e246b0bfde5dbc9"
+    }
+  ]
+}

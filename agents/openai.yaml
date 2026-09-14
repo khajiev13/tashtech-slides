@@ -1,0 +1,7 @@
+interface:
+  display_name: "TashTech Slides — University Edition"
+  short_description: "University-wide slides for teaching, research and operations"
+  icon_small: "./assets/logos/tt-monogram-orange-on-white.png"
+  icon_large: "./assets/logos/tt-circle-orange-transparent.png"
+  brand_color: "#E64519"
+  default_prompt: "Use $tashtech-slides to create a source-grounded TashTech presentation. Choose the structure for my purpose and audience, preserve the shared branding, and distinguish facts, proposals and examples."
