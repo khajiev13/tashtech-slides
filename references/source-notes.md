@@ -31,7 +31,6 @@ These support the `SKILL.md` folder structure, progressive references and the do
 
 ## Rendering/accessibility
 
-- Playwright Python, `page.pdf`: https://playwright.dev/python/docs/api/class-page#page-pdf
 - W3C WCAG 2.2: https://www.w3.org/TR/WCAG22/
 
 ## University Edition demonstration content

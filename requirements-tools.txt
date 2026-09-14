@@ -1,2 +1,0 @@
-# Optional: browser validation and PDF export. Nothing required to view a deck.
-playwright>=1.42,<2

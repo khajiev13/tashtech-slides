@@ -6,14 +6,9 @@ Read the source and inspect every slide first. Record slide order, notes, citati
 
 ## PowerPoint input
 
-```bash
-python3 -m pip install -r "$SKILL_DIR/requirements-pptx.txt"
-python3 "$SKILL_DIR/scripts/extract_pptx.py" source.pptx ./extracted
-```
+Use a source reader already available in the host environment, or ask the user to export the source as PDF, slide images, or readable text. This skill does not bundle a PowerPoint converter or require installing one. Do not silently install packages.
 
-The output contains `content.json`, extracted image files, slide/element order, basic bounds, table cells, text and available notes. The extractor recursively visits grouped shapes. Chart data is best-effort and always flagged for source review. The output directory must be new or empty, so prior files are not silently overwritten.
-
-This is **content extraction for agent-assisted redesign**, not automatic pixel-perfect conversion. The agent must compare the source's rendered slides with the extracted structure. SmartArt, formulas, embedded media, vector pictures, master-slide backgrounds, animations, connectors, chart categories/styles and complex crops may require manual reconstruction. Unsupported shapes generate warnings; do not drop them without saying so. A legacy `.ppt` must first be converted with an appropriate local application.
+This is content-guided redesign, not automatic pixel-perfect conversion. Compare the source’s rendered slides with its extracted structure. SmartArt, formulas, embedded media, vector pictures, backgrounds, animations and complex charts/crops may need manual reconstruction. Report unreadable material instead of silently dropping it. Legacy `.ppt` files likewise need an existing reader or a readable export.
 
 Build a slide-by-slide inventory and map original figures/notes to the restyled slides. Preserve all content unless a condensed adaptation was requested. Mark unknown/unreadable material and ask for the needed source rather than inventing it. For charts, use real values and units, not an attractive illustration masquerading as source data.
 
@@ -23,4 +18,4 @@ Use the host's appropriate document-reading tools. Render visual pages when pars
 
 ## Output boundaries
 
-Implemented output: self-contained HTML and printable PDF. The skill does not generate editable `.pptx` by itself. When editable PowerPoint is specifically required, use a separate PPTX-authoring capability and transfer the same branding, layouts, assets and verification rules. Be explicit about which deliverables are editable and which are static.
+Native output: self-contained HTML, with PDF available through browser printing. The skill does not generate editable `.pptx` by itself. When editable PowerPoint is specifically required, use a separate PPTX-authoring capability and transfer the same branding, layouts, assets and verification rules. Be explicit about which deliverables are editable and which are static.

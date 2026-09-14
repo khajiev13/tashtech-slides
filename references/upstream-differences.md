@@ -17,8 +17,8 @@ This is **TashTech Slides — University Edition 2.1.0**, expanded from TashTech
 | Marks | User images evaluated per task | Manifest-indexed TashTech marks, originals and usage/rights notes |
 | Inline editing | Browser editing workflow | Plaintext edits on opt-in elements and Save HTML |
 | PDF | Screenshot-based export described upstream | Browser print with selectable HTML text |
-| Conversion | Extract PPTX and redesign | Similar workflow; explicit fidelity warnings |
+| Conversion | Extract PPTX and redesign | Existing source readers or readable exports; explicit fidelity warnings |
 | Sharing | Optional hosting workflow | No deployment bundled; explicit permission required for publication |
-| Validation | Source guidance and viewport rules | Runnable static/browser checker and regression tests |
+| Validation | Source guidance and viewport rules | Optional standard-library static checker plus browser review |
 
 The upstream MIT notice is retained. The software license does not license university trademarks or supplied artwork.

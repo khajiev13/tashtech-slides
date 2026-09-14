@@ -2,9 +2,15 @@
 
 ## Files and dependency boundary
 
-The builder is `scripts/create_deck.py`. It reads `styles/tashtech-tokens.css`, `styles/viewport-base.css`, `templates/runtime.js`, `templates/presentation.html` and selected manifest images, and inlines them into one HTML file. Python 3.10+ is the only build requirement. Viewing needs a modern browser with JavaScript; no server, framework, package manager, account or network is needed.
+Author one self-contained HTML file directly. No Python, npm, framework, package installation, server or other skill is required for this workflow. Viewing needs a modern browser with JavaScript.
 
-The raw `templates/presentation.html` contains builder macros and is not the finished deck. Author a slide fragment using the structure below and pass it to the builder with `--slides`.
+1. Copy `templates/presentation.html` into the requested output file.
+2. Replace `{{CSS}}` with the contents of `styles/tashtech-tokens.css` followed by `styles/viewport-base.css`; replace `{{JS}}` with `templates/runtime.js`.
+3. Replace `{{SLIDES}}` with authored `section.slide` elements using the structure below. Set `{{LANG}}`, `{{TITLE}}`, `{{MODE}}`, `{{PURPOSE}}`, `{{MOTION}}`, `{{AUTOSAVE_KEY}}`, `{{VERSION}}` (from `VERSION`) and any `{{FOOTER}}` tokens. HTML-escape metadata values. Motion is `none`, `subtle` or `expressive`; default to `subtle`.
+4. Resolve each `{{asset:ASSET-ID}}` through `assets/manifest.json`, embedding the corresponding image bytes as a base64 data URI using available file tools. Do not leave relative asset paths or macros in the final HTML.
+5. Preserve the runtime, controls and stage structure. Open the final HTML in a browser and follow `export-and-validation.md`.
+
+If Python 3.10+ is already available, `scripts/create_deck.py` automates this assembly using only its standard library. The command examples below are optional conveniences, not prerequisites.
 
 ## Author one or more sections
 

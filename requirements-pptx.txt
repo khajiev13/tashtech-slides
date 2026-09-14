@@ -1,2 +1,0 @@
-# Optional: extracting PowerPoint content for agent-assisted redesign.
-python-pptx>=1.0,<2

@@ -1,6 +1,6 @@
 # TashTech Slides skill
 
-Reusable `tashtech-slides` skill for source-grounded, university-branded HTML presentations, with optional PDF export and PowerPoint content extraction.
+Reusable `tashtech-slides` skill for source-grounded, university-branded HTML presentations, with browser PDF printing.
 
 This repository contains the skill and its runtime resources only. Demos, generated presentations, development plans, tests, evaluation reports, and caches from the source package are excluded.
 
@@ -8,20 +8,11 @@ This repository contains the skill and its runtime resources only. Demos, genera
 
 Clone this repository into your agent’s skills directory as `tashtech-slides`, then invoke `$tashtech-slides`. See [SKILL.md](SKILL.md) for the workflow.
 
-## Dependencies
+## Zero-install workflow
 
-The HTML builder requires Python 3.10+ and uses only the standard library. To enable browser validation and PDF export, run from this directory:
+The agent authors a single HTML file with inline CSS/JavaScript and embedded images. No npm, frameworks, build tools, Python packages, server, external service or other skill is required. Open the result in a modern browser and use Print / Save as PDF when needed.
 
-```bash
-python3 -m pip install -r requirements-tools.txt
-python3 -m playwright install chromium
-```
-
-For optional PowerPoint content extraction:
-
-```bash
-python3 -m pip install -r requirements-pptx.txt
-```
+The optional `scripts/create_deck.py` and `scripts/validate_deck.py` helpers use Python 3.10+ and its standard library only. Python is not required for direct HTML authoring or viewing. For PowerPoint input, use a reader already available in your environment or supply a PDF/image/text export.
 
 ## Rights and provenance
 
